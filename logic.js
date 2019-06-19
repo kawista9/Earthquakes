@@ -27,6 +27,7 @@ function getColor(x) {
            x > 1 ? "#d8f402" :
            x > 0 ? "#93f402" :
                 "#FFEDA0";
+}
   
 
   // make a GeoJSON layer holding the features array on the earthquakeData object
@@ -109,4 +110,3 @@ function createMap(earthquakes) {
   };
   scale.addTo(map);
 
-}
